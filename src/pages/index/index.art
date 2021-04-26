@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>慕云游</title>
+</head>
+
+<body>
+    <header class="site-head">
+        <!-- topbar -->
+        {{include '../../components/topbar/topbar.art'}}
+        <nav class="main-nav">
+            <!--main-nav-->
+            {{include '../../components/main-nav/main-nav.art'}}
+        </nav>
+        <div class="header-con">
+            {{include '../../components/header-con/header-con.art'}}
+        </div>
+    </header>
+    <section class="banner" id="banner">
+        <!-- carousel -->
+        {{include './components/carousel/carousel.art'}}
+
+        <div class="center-wrap">
+            <!--btn-->
+            {{include './components/carousel/btn.art'}}
+            <!-- menu -->
+            {{include './components/v-menu-box/v-menu-box.art'}}
+        </div>
+    </section>
+    <section class="layer fav-ad">
+        <!-- fav-ad -->
+        {{include './components/fav-ad/fav-ad.art'}}
+    </section>
+    <!-- 新鲜甩尾 -->
+    <section class="layer xxsw">
+        <!-- 新鲜甩尾 -->
+        {{include './components/xxsw/xxsw.art'}}
+    </section>
+    <!-- 机酒自由行 -->
+    <section class="layer layer-common-style jjzyx">
+        <div class="center-wrap">
+            {{include './components/jjzyx/jjzyx.art'}}
+        </div>
+    </section>
+    <section class="layer ddwl">
+        <!-- 当地玩乐 -->
+        {{include './components/ddwl/ddwl.art'}}
+    </section>
+    <section class="layer tsddty">
+        <!-- 特色当地体验 -->
+        {{include './components/tsddty/tsddty.art'}}
+    </section>
+    <section class="layer layer-common-style another-style zsj">
+        <!-- 最世界 -->
+        {{include './components/zsj/zsj.art'}}
+    </section>
+    <section class="layer layer-common-style another-style gt">
+        <!-- 跟团 -->
+        {{include './components/gt/gt.art'}}
+    </section>
+    <footer>
+        <nav class="footer-nav">
+            {{include '../../components/footer-nav/footer-nav.art'}}
+        </nav>
+        <div class="bottom-bar">
+            {{include '../../components/bottom-bar/bottom-bar.art'}}
+        </div>
+        <!-- backtotop -->
+        {{include '../../components/backtotop/backtotop.art'}}
+    </footer>
+</body>
+</html>

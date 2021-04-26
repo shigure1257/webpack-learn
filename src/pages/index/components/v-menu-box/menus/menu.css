@@ -1,0 +1,34 @@
+
+  .banner .center-wrap .v-menu-box .menu {
+    position: absolute;
+    width: 350px;
+    height: 1000px;
+    top: 0;
+    left: 296px;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.486);
+    transition: all 0.4s ease 0s;
+  }
+  .banner .center-wrap .v-menu-box .menu.active {
+    display: block;
+  }
+  .banner .center-wrap .v-menu-box .menu .menu_inn {
+    padding: 10px;
+  }
+  .banner .center-wrap .v-menu-box .menu .menu_inn dl dt {
+    font-size: 17px;
+    color: white;
+    line-height: 30px;
+  }
+  .banner .center-wrap .v-menu-box .menu .menu_inn dl dd {
+    line-height: 18px;
+    margin-bottom: 20px;
+  }
+  .banner .center-wrap .v-menu-box .menu .menu_inn dl dd a {
+    color: white;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  .banner .center-wrap .v-menu-box .menu .menu_inn dl dd a:hover {
+    color: #20BD9A;
+  }

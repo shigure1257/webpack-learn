@@ -1,0 +1,76 @@
+<!-- <nav class="v-menu" id="v-menu"> -->
+    <ul>
+        {{each items}}
+        <li data-n="{{$value.key}}">
+            <div class="inn">
+                <div class="t">{{$value.title}}</div>
+                <div class="e">
+                    {{each $value.subTitles}}
+                    <em>{{$value}}</em>
+                    {{/each}}
+                    <!-- <em>上海</em>
+                    <em>广深</em>
+                    <em>西南</em>
+                    <em>东北</em> -->
+                </div>
+            </div>
+        </li>
+        {{/each}}
+        <!-- <li data-n="hk">
+            <div class="inn">
+                <div class="t">港澳台 国内</div>
+                <div class="e">
+                    <em>香港</em>
+                    <em>澳门</em>
+                    <em>台湾</em>
+                    <em>国内其他</em>
+                </div>
+            </div>
+        </li>
+        <li data-n="japan">
+            <div class="inn">
+                <div class="t">日本 韩国</div>
+                <div class="e">
+                    <em>东京</em>
+                    <em>大阪</em>
+                    <em>冲绳</em>
+                    <em>北海道</em>
+                    <em>福冈</em>
+                </div>
+            </div>
+        </li>
+        <li data-n="asia">
+            <div class="inn">
+                <div class="t">东南亚 南亚</div>
+                <div class="e">
+                    <em>泰国</em>
+                    <em>新加坡</em>
+                    <em>印尼</em>
+                    <em>马来西亚</em>
+                    <em>越南</em>
+                </div>
+            </div>
+        </li>
+        <li data-n="eu">
+            <div class="inn">
+                <div class="t">欧洲 美洲</div>
+                <div class="e">
+                    <em>英国</em>
+                    <em>法国</em>
+                    <em>美国</em>
+                    <em>加拿大</em>
+                </div>
+            </div>
+        </li>
+        <li data-n="au">
+            <div class="inn">
+                <div class="t">澳新</div>
+                <div class="e">
+                    <em>澳大利亚</em>
+                    <em>新西兰</em>
+                    <em>迪拜</em>
+                </div>
+            </div>
+        </li> -->
+    </ul>
+<!-- </nav> -->

@@ -1,0 +1,10 @@
+<div class="v-menu-box" id="v-menu-box">
+    <!-- 一级菜单 -->
+    <nav class="v-menu" id="v-menu">
+        {{include './v-menu/v-menu.art'}}
+    </nav>
+    <!-- 二级菜单 -->
+    <div class="menus" id="menus">
+        {{include './menus/menu.art'}}
+    </div>
+</div>

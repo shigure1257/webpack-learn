@@ -1,0 +1,112 @@
+<div class="col1">
+    <ul>
+        <li class="grid big">
+            <a href="">
+                <div class="pic">
+                    <img class="p-img" src="{{one.url}}" alt="">
+                </div>
+                <div class="tip">
+                    <div class="inn">
+                        {{one.title}}
+                    </div>
+                    <div class="type">{{one.type}}</div>
+                    <div class="price">
+                        <span>{{one.price}}</span>
+                        元起
+                    </div>
+                </div>
+            </a>
+        </li>
+        <li class="grid">
+            <a href="">
+                <div class="pic">
+                    <img class="p-img" src="{{items[0].url}}" alt="">
+                </div>
+                <div class="tip">
+                    <div class="inn">
+                        {{items[0].title}}
+                    </div>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="col2">
+    <ul>
+        <% for (let i=1;i<items.length-1;i++){ %>
+        <li class="grid">
+            <a href="">
+                <div class="pic">
+                    <img class="p-img" src="<%= items[i].url %>" alt="">
+                </div>
+                <div class="tip">
+                    <div class="inn">
+                        <%= items[i].title %>
+                    </div>
+                </div>
+            </a>
+        </li>
+        <% } %>
+        <!-- <li class="grid">
+            <a href="">
+                <div class="pic">
+                    <img class="p-img" src="images/ddwl_04.png" alt="">
+                </div>
+                <div class="tip">
+                    <div class="inn">
+                        [全岛接送+中文导游] 泰国普吉岛+皇帝岛+珊瑚岛一日游双体帆船海钓 [帆船晚会+浮潜]…
+                    </div>
+                </div>
+            </a>
+        </li>
+        <li class="grid">
+            <a href="">
+                <div class="pic">
+                    <img class="p-img" src="images/ddwl_05.png" alt="">
+                </div>
+                <div class="tip">
+                    <div class="inn">
+                        享行之旅|泰国苏梅岛一日游 越野车丛林环岛之旅 骑大象纳蒙瀑布
+                    </div>
+                </div>
+            </a>
+        </li> -->
+    </ul>
+</div>
+<div class="col3">
+    <ul>
+        <li class="grid">
+            <a href="">
+                <div class="pic">
+                    <img class="p-img" src="{{items[4].url}}" alt="">
+                </div>
+                <div class="tip">
+                    <div class="inn">
+                        {{items[4].title}}
+                    </div>
+                </div>
+            </a>
+        </li>
+        <li class="more grid">
+            <a href="">
+                <div class="more_con">
+                    查看更多<br>
+                    {{more.title}}
+                </div>
+                <div class="arrow">
+                    <b class="iconfont">&#xe602;</b>
+                </div>
+                <div class="tj">
+                    <ul>
+                        {{each more.items}}
+                        <li>{{$value}}</li>
+                        {{/each}}
+                        <!-- <li>交通票券</li>
+                        <li>景点门票</li>
+                        <li>特色体验</li> -->
+                    </ul>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>

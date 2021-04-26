@@ -1,0 +1,1 @@
+export const URL = 'https://www.imooc.com/api/mall-PC/index/slider?icode=JBE44A6D0DC61DE3A';
